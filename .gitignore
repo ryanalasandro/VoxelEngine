@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# media folders
+Art/
+Builds/
+Production/
+Externals/
+Libraries/
+Resources/
+Temp/
+
 # User-specific files
 *.rsuser
 *.suo
