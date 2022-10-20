@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{309d16ba-7e1d-45ae-9937-db2bbb742d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{cf4640ce-d50c-4d56-b2cb-1b3c264b8a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Platform">
+      <UniqueIdentifier>{3f13143d-dda9-4a28-aa10-8e21d4763f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Platform\Windows">
+      <UniqueIdentifier>{7449239a-a0e8-45ca-b433-0ffeffbb55e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Platform">
+      <UniqueIdentifier>{fd3999f7-9e37-4a91-a902-23a25a6a3f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Platform\Windows">
+      <UniqueIdentifier>{bc5d5ba9-74af-476c-9f74-098c66165cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{82041a26-8353-416e-bcc5-741338318c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{a2e71230-68ee-4a4c-8f81-11526519a9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Panels">
+      <UniqueIdentifier>{e7448526-61ea-468b-a917-b868dca8da2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Panels\Windows">
+      <UniqueIdentifier>{dfd4158d-5136-43dc-87f5-31f04ffe8962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Panels">
+      <UniqueIdentifier>{02b1a0e8-16a6-4a4c-9375-75702a214b5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Panels\Windows">
+      <UniqueIdentifier>{e85cc30d-2609-4345-9e0e-b0027ff49839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{19ece4fa-ad71-457e-b406-80d1cc90ff13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\DX12">
+      <UniqueIdentifier>{a0149e6f-37c9-4956-9970-f93d5e3a10db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{a472386d-9410-46d3-ad6a-bd3e2e893d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\DX12">
+      <UniqueIdentifier>{cf5b4433-0605-4ee6-ac64-121526903b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{ef776a92-3584-49ab-9443-01a400a4994a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders">
+      <UniqueIdentifier>{1dd2456a-df63-4e58-bd41-48846d0afaf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\Compiler">
+      <UniqueIdentifier>{d63816fb-1fdd-4a1d-8584-47953092968c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\Compiler\DX12">
+      <UniqueIdentifier>{8b34ce01-fb66-479a-8dc1-db9cdd5f56a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders">
+      <UniqueIdentifier>{99ec9479-7506-4fa8-8797-3006bb7acd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\Compiler">
+      <UniqueIdentifier>{84b6d22f-a83b-491c-9a2e-f40fb14a0c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\Compiler\DX12">
+      <UniqueIdentifier>{c1762320-268b-4449-a3f9-ea32b14a95b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\DX12">
+      <UniqueIdentifier>{5f9be061-1c14-499b-8f77-388e7fd42c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\DX12">
+      <UniqueIdentifier>{3a7f61c2-01ef-4112-8911-6ca1c00be015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Utilities">
+      <UniqueIdentifier>{fac59592-cc1e-4cac-b519-41ae87854651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Utilities\DX12">
+      <UniqueIdentifier>{a9a7016b-5939-463a-ad61-32ff953c1bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Utilities">
+      <UniqueIdentifier>{a1d0c85c-fa41-4e06-8546-878a5ed662c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Utilities\DX12">
+      <UniqueIdentifier>{aca92fec-3b30-4760-bf93-243edb95fe9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Materials">
+      <UniqueIdentifier>{e668ef3d-36bf-41f7-ac19-e2ce508393bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Materials">
+      <UniqueIdentifier>{c1d4f698-64d9-47e2-94b0-1770ed0106de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resources">
+      <UniqueIdentifier>{adefbe2b-29ff-4819-8e87-5a5f731bc5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resources">
+      <UniqueIdentifier>{b0c5347c-0639-464b-9b3e-1a458682a885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\Buffers">
+      <UniqueIdentifier>{31a60fc1-9880-416f-8b60-304e08e3ac9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\Utilities">
+      <UniqueIdentifier>{5a25d82f-6771-4113-8c9c-affa440ac36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\Utilities">
+      <UniqueIdentifier>{d8dc8338-d759-4c3a-be55-639fde6127c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials">
+      <UniqueIdentifier>{41ef500a-4e10-44ef-a311-8c793b308f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Rendering">
+      <UniqueIdentifier>{e81b696f-babb-4ce3-a561-536d50a33560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Rendering">
+      <UniqueIdentifier>{cb31c762-76a4-4962-959e-1161502c400d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Scenes">
+      <UniqueIdentifier>{be7861af-991f-4f94-81ab-e7b20b1a2ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Scenes">
+      <UniqueIdentifier>{2530f6f5-4cd1-41bc-85f2-b3414f745b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Rendering\Geometry">
+      <UniqueIdentifier>{5f776a06-becc-4353-98fd-7116ac641456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Rendering\Geometry\Primitives">
+      <UniqueIdentifier>{9b2648e6-b532-41d6-b7b2-01685ce571af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Rendering\Geometry">
+      <UniqueIdentifier>{61c1bd2e-77ae-49c9-8d59-297f5e600d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Rendering\Geometry\Primitives">
+      <UniqueIdentifier>{92069a41-5eab-4cda-98ec-3174731ecca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Components">
+      <UniqueIdentifier>{7cc60a38-0f1b-490c-9f90-add09f98f9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Components\DX12">
+      <UniqueIdentifier>{68345aa8-48ec-4ffb-b4f0-182c9829c1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Components">
+      <UniqueIdentifier>{a38c22d4-ccd2-4b5f-81a7-de4af0342bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Components\DX12">
+      <UniqueIdentifier>{5ef29d8e-09e8-4924-9552-d892a41ac4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders\Buffers\DX12">
+      <UniqueIdentifier>{ceaf556f-0c98-438d-817f-a2cbb549a94c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\Buffers">
+      <UniqueIdentifier>{d69badb6-9824-4cf1-b6b9-65bd2f69677c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders\Buffers\DX12">
+      <UniqueIdentifier>{05263ff9-c4aa-41fc-a005-887d8bdc8d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Textures">
+      <UniqueIdentifier>{4cca0e94-3558-488a-afc6-08c9978e7565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Textures\DX12">
+      <UniqueIdentifier>{eb3b1563-e28f-4426-aeac-b9a3c4e67bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Textures">
+      <UniqueIdentifier>{5d23e9af-1a45-4f7b-a5fd-73971acae06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Textures\DX12">
+      <UniqueIdentifier>{99004631-3524-4e3e-9abe-b4e7bc263c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Compute">
+      <UniqueIdentifier>{0fef0453-62e7-495b-b4e9-8a4a70563213}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Compute">
+      <UniqueIdentifier>{cf43cdd4-407e-4d72-bbe9-feda44c75fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Rendering\Debug">
+      <UniqueIdentifier>{e783df0c-fbf0-4953-a1ca-eebc4108e901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Rendering\Debug">
+      <UniqueIdentifier>{01fc565f-64eb-42db-b4e0-ca60ac1b3897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Input">
+      <UniqueIdentifier>{ef18d1b4-f0ee-4077-b134-f19736fc97dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Input">
+      <UniqueIdentifier>{ab879e95-1cb8-473d-8314-21046d192c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Input\Devices">
+      <UniqueIdentifier>{67810808-6f53-4017-bdcb-ac38f94cd15b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Input\Devices">
+      <UniqueIdentifier>{58d9e57a-5cf1-41b8-9da5-5c7ee2ac21c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Input\Devices\Windows">
+      <UniqueIdentifier>{9f5d34a8-37fe-4a8e-b35d-885fdeede24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Input\Devices\Windows">
+      <UniqueIdentifier>{7e189e71-6a42-45bb-b520-c568e94e0e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Post">
+      <UniqueIdentifier>{fd38e9c8-8af2-40ce-b154-e204913f513a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Post">
+      <UniqueIdentifier>{bc9c5cd2-a193-4176-9b9e-092b3f58d622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Includes">
+      <UniqueIdentifier>{f8992d77-ad22-49f5-b292-bf6ec96c1109}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{f8ec2862-dc7b-46c1-b2fd-69c2d885cbca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Effects">
+      <UniqueIdentifier>{34fdae0a-6427-4786-b31f-99f4d58cde8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Components">
+      <UniqueIdentifier>{55371c56-aaa7-4375-8432-9f70b5d6ef66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Mixer">
+      <UniqueIdentifier>{c179e24a-c552-4668-888a-9e69e36445f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Resources">
+      <UniqueIdentifier>{3b85f49f-8e01-47af-add8-11b5d6ac0ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{fba79020-e8a8-497a-9fc6-88a3af819f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Components">
+      <UniqueIdentifier>{701609e0-1416-4a84-9a44-131e33e52e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Effects">
+      <UniqueIdentifier>{977557f2-950b-4e2d-8810-7b62a25f838a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Mixer">
+      <UniqueIdentifier>{c1612ea8-8f7e-49d7-8617-893dcbe5d023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Resources">
+      <UniqueIdentifier>{f83c6c5c-4a79-40dc-8abb-9ad3b692ccee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Resources\Loaders">
+      <UniqueIdentifier>{c15d071f-8c1d-41bc-8d53-45f14c2c4eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Resources\Loaders">
+      <UniqueIdentifier>{0128f230-0bbf-45d0-878c-4e820f435d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Data">
+      <UniqueIdentifier>{f38d90ff-b1bf-410d-b132-a8a48499480a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Windows">
+      <UniqueIdentifier>{017b46c6-0891-4575-8e3b-81badc54e196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Windows">
+      <UniqueIdentifier>{60f6885a-83f2-403f-bb40-e4a3c8def50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Audio\Components\Windows">
+      <UniqueIdentifier>{b077de53-1807-422d-9f6f-a731784e5e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio\Components\Windows">
+      <UniqueIdentifier>{dcef52c9-db1a-4b5b-bdd4-ef4ab55c9b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials\Post">
+      <UniqueIdentifier>{9387b0ec-3e6d-43b0-92d8-b28c57db0992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Post">
+      <UniqueIdentifier>{4f27c588-b38c-4b7c-ac78-6951a38a76a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Post\Effects">
+      <UniqueIdentifier>{c0f92ec4-0a75-4283-a968-46534de1d450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Post\Effects">
+      <UniqueIdentifier>{3bf708df-5cf5-4e35-8984-2fa72863314b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Platform\UI">
+      <UniqueIdentifier>{c6581a65-be60-4211-a66e-9eebd684095d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Platform\UI">
+      <UniqueIdentifier>{e98476df-acb4-4c04-9473-9d2cce663547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{d7c51ca1-f5e9-4441-a5a8-d8ecd6e4fd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Jobs">
+      <UniqueIdentifier>{b2987d75-3b4f-4e86-94cc-36939e9e7007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{b7c34dcb-8b4d-4bb2-9a5f-ba29e51c668b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Garbage">
+      <UniqueIdentifier>{c24d2fa8-6b85-4833-b17b-43f09c6789ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Jobs">
+      <UniqueIdentifier>{2f9c390c-1926-4cbc-984e-b733bcf30e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\Garbage">
+      <UniqueIdentifier>{87fe47ed-26f9-4d32-a1f0-c0eed6248620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Scenes\Utilities">
+      <UniqueIdentifier>{bfdc07ec-61cf-454f-bde2-20bcfa55b209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Scenes\Utilities">
+      <UniqueIdentifier>{4ae05e37-2103-4143-945f-cd7b41119333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utilities\File">
+      <UniqueIdentifier>{631fb973-b5a1-4e3c-9e02-982389a172a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\File">
+      <UniqueIdentifier>{3513dd36-0591-45fd-9266-28f2f13ca272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{c6c9889c-cd39-4e91-9af7-9f892b533704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Text">
+      <UniqueIdentifier>{8a0a32d3-55d6-4041-9154-f1fe29c97cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Text\Data">
+      <UniqueIdentifier>{acf4d800-a7a1-48b1-b2b0-242272707bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{9a585565-98e7-4cc7-afae-67ab04fc95c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Logic">
+      <UniqueIdentifier>{d8abb07d-08e0-4389-948a-ec2c4ddf7f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Logic">
+      <UniqueIdentifier>{0358e3ec-6c82-498c-a53e-f3210ae4b525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\Images">
+      <UniqueIdentifier>{71d60027-6181-4c4b-960d-35998edfa90d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\Text">
+      <UniqueIdentifier>{019fc4ba-4ff7-412d-8a42-547edd197587}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\CWinPlatform.h">
+      <Filter>Header Files\Application\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CPlatform.h">
+      <Filter>Header Files\Application\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\CFactory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CPanel.h">
+      <Filter>Header Files\Application\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CWinPanel.h">
+      <Filter>Header Files\Application\Panels\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CPlatformData.h">
+      <Filter>Header Files\Application\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CPanelData.h">
+      <Filter>Header Files\Application\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\d3dx12.h">
+      <Filter>Header Files\Graphics\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CGraphicsAPI.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Graphics.h">
+      <Filter>Header Files\Graphics\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CGraphicsData.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Data.h">
+      <Filter>Header Files\Graphics\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShaderCompiler.h">
+      <Filter>Header Files\Graphics\Shaders\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12ShaderCompiler.h">
+      <Filter>Header Files\Graphics\Shaders\Compiler\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Shader.h">
+      <Filter>Header Files\Graphics\Shaders\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CRootSignature.h">
+      <Filter>Header Files\Graphics\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12RootSignature.h">
+      <Filter>Header Files\Graphics\Utilities\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CMaterial.h">
+      <Filter>Header Files\Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\CResourceManager.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\CResourceFile.h">
+      <Filter>Header Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShaderTrie.h">
+      <Filter>Header Files\Graphics\Shaders\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShaderFile.h">
+      <Filter>Header Files\Graphics\Shaders\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShaderFileBlock.h">
+      <Filter>Header Files\Graphics\Shaders\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CShaderFileProp.h">
+      <Filter>Header Files\Graphics\Shaders\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CRootSigRegistrar.h">
+      <Filter>Header Files\Graphics\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CMaterialFile.h">
+      <Filter>Header Files\Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CRenderingSystem.h">
+      <Filter>Header Files\Graphics\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CSceneManager.h">
+      <Filter>Header Files\Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CScene.h">
+      <Filter>Header Files\Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPrimTriangle.h">
+      <Filter>Header Files\Graphics\Rendering\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CMeshRenderer.h">
+      <Filter>Header Files\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12MeshRenderer.h">
+      <Filter>Header Files\Graphics\Components\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CMeshData.h">
+      <Filter>Header Files\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CConstantBuffer.h">
+      <Filter>Header Files\Graphics\Shaders\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12ConstantBuffer.h">
+      <Filter>Header Files\Graphics\Shaders\Buffers\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12HeapManager.h">
+      <Filter>Header Files\Graphics\Utilities\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CTexture.h">
+      <Filter>Header Files\Graphics\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Texture.h">
+      <Filter>Header Files\Graphics\Textures\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CUAVBuffer.h">
+      <Filter>Header Files\Graphics\Shaders\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12UAVBuffer.h">
+      <Filter>Header Files\Graphics\Shaders\Buffers\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CCompute.h">
+      <Filter>Header Files\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Compute.h">
+      <Filter>Header Files\Graphics\Components\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CComputeSystem.h">
+      <Filter>Header Files\Graphics\Compute</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDebugGrid.h">
+      <Filter>Header Files\Graphics\Rendering\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInput.h">
+      <Filter>Header Files\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputData.h">
+      <Filter>Header Files\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputLayout.h">
+      <Filter>Header Files\Application\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputMouse.h">
+      <Filter>Header Files\Application\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputKeyboard.h">
+      <Filter>Header Files\Application\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputDevice.h">
+      <Filter>Header Files\Application\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputDeviceList.h">
+      <Filter>Header Files\Application\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CWinDeviceList.h">
+      <Filter>Header Files\Application\Input\Devices\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CInputGamepad.h">
+      <Filter>Header Files\Application\Input\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CWinGamepad.h">
+      <Filter>Header Files\Application\Input\Devices\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CRenderTexture.h">
+      <Filter>Header Files\Graphics\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostProcessor.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostEffect.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioListener.h">
+      <Filter>Header Files\Audio\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioSource.h">
+      <Filter>Header Files\Audio\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioMixer.h">
+      <Filter>Header Files\Audio\Mixer</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioClip.h">
+      <Filter>Header Files\Audio\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioLoader.h">
+      <Filter>Header Files\Audio\Resources\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioWave.h">
+      <Filter>Header Files\Audio\Resources\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioOgg.h">
+      <Filter>Header Files\Audio\Resources\Loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudioData.h">
+      <Filter>Header Files\Audio\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CWinAudio.h">
+      <Filter>Header Files\Audio\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CAudio.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CWinAudioListener.h">
+      <Filter>Header Files\Audio\Components\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\CWinAudioSource.h">
+      <Filter>Header Files\Audio\Components\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostSky.h">
+      <Filter>Header Files\Graphics\Post\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostToneMapping.h">
+      <Filter>Header Files\Graphics\Post\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CWUIScript.h">
+      <Filter>Header Files\Application\Platform\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CGraphicsWorker.h">
+      <Filter>Header Files\Graphics\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDX12Worker.h">
+      <Filter>Header Files\Graphics\Utilities\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CJobSystem.h">
+      <Filter>Header Files\Utilities\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CWorker.h">
+      <Filter>Header Files\Utilities\Jobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CGarbage.h">
+      <Filter>Header Files\Utilities\Garbage</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CMeshContainer.h">
+      <Filter>Header Files\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CRenderer.h">
+      <Filter>Header Files\Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CDebugOBB.h">
+      <Filter>Header Files\Graphics\Rendering\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPrimQuad.h">
+      <Filter>Header Files\Graphics\Rendering\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CSceneFileIO.h">
+      <Filter>Header Files\Application\Scenes\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\CFileSystem.h">
+      <Filter>Header Files\Utilities\File</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CFontData.h">
+      <Filter>Header Files\UI\Text\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CUICanvas.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CUITransform.h">
+      <Filter>Header Files\UI\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CUIRenderer.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\CUIText.h">
+      <Filter>Header Files\UI\Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\CWinPlatform.cpp">
+      <Filter>Source Files\Application\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory\CFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CWinPanel.cpp">
+      <Filter>Source Files\Application\Panels\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CPanel.cpp">
+      <Filter>Source Files\Application\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CPlatform.cpp">
+      <Filter>Source Files\Application\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12Graphics.cpp">
+      <Filter>Source Files\Graphics\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12ShaderCompiler.cpp">
+      <Filter>Source Files\Graphics\Shaders\Compiler\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShaderCompiler.cpp">
+      <Filter>Source Files\Graphics\Shaders\Compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12Shader.cpp">
+      <Filter>Source Files\Graphics\Shaders\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12RootSignature.cpp">
+      <Filter>Source Files\Graphics\Utilities\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\CResourceManager.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\CResourceFile.cpp">
+      <Filter>Source Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShaderTrie.cpp">
+      <Filter>Source Files\Graphics\Shaders\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShaderFile.cpp">
+      <Filter>Source Files\Graphics\Shaders\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShaderFileBlock.cpp">
+      <Filter>Source Files\Graphics\Shaders\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CShaderFileProp.cpp">
+      <Filter>Source Files\Graphics\Shaders\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CRootSigRegistrar.cpp">
+      <Filter>Source Files\Graphics\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CMaterial.cpp">
+      <Filter>Source Files\Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CMaterialFile.cpp">
+      <Filter>Source Files\Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CRenderingSystem.cpp">
+      <Filter>Source Files\Graphics\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CSceneManager.cpp">
+      <Filter>Source Files\Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CScene.cpp">
+      <Filter>Source Files\Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPrimTriangle.cpp">
+      <Filter>Source Files\Graphics\Rendering\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12MeshRenderer.cpp">
+      <Filter>Source Files\Graphics\Components\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CMeshData.cpp">
+      <Filter>Source Files\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CMeshRenderer.cpp">
+      <Filter>Source Files\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12ConstantBuffer.cpp">
+      <Filter>Source Files\Graphics\Shaders\Buffers\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CConstantBuffer.cpp">
+      <Filter>Source Files\Graphics\Shaders\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12HeapManager.cpp">
+      <Filter>Source Files\Graphics\Utilities\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12Texture.cpp">
+      <Filter>Source Files\Graphics\Textures\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12UAVBuffer.cpp">
+      <Filter>Source Files\Graphics\Shaders\Buffers\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12Compute.cpp">
+      <Filter>Source Files\Graphics\Components\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CCompute.cpp">
+      <Filter>Source Files\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CComputeSystem.cpp">
+      <Filter>Source Files\Graphics\Compute</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDebugGrid.cpp">
+      <Filter>Source Files\Graphics\Rendering\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CInput.cpp">
+      <Filter>Source Files\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CInputLayout.cpp">
+      <Filter>Source Files\Application\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CInputMouse.cpp">
+      <Filter>Source Files\Application\Input\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CInputKeyboard.cpp">
+      <Filter>Source Files\Application\Input\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CWinDeviceList.cpp">
+      <Filter>Source Files\Application\Input\Devices\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CInputGamepad.cpp">
+      <Filter>Source Files\Application\Input\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CWinGamepad.cpp">
+      <Filter>Source Files\Application\Input\Devices\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostProcessor.cpp">
+      <Filter>Source Files\Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CRenderTexture.cpp">
+      <Filter>Source Files\Graphics\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioListener.cpp">
+      <Filter>Source Files\Audio\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioSource.cpp">
+      <Filter>Source Files\Audio\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioClip.cpp">
+      <Filter>Source Files\Audio\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioMixer.cpp">
+      <Filter>Source Files\Audio\Mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioLoader.cpp">
+      <Filter>Source Files\Audio\Resources\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioWave.cpp">
+      <Filter>Source Files\Audio\Resources\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudioOgg.cpp">
+      <Filter>Source Files\Audio\Resources\Loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CWinAudio.cpp">
+      <Filter>Source Files\Audio\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CAudio.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CWinAudioListener.cpp">
+      <Filter>Source Files\Audio\Components\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\CWinAudioSource.cpp">
+      <Filter>Source Files\Audio\Components\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostSky.cpp">
+      <Filter>Source Files\Graphics\Post\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostToneMapping.cpp">
+      <Filter>Source Files\Graphics\Post\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CWUIScript.cpp">
+      <Filter>Source Files\Application\Platform\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDX12Worker.cpp">
+      <Filter>Source Files\Graphics\Utilities\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CJobSystem.cpp">
+      <Filter>Source Files\Utilities\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CWorker.cpp">
+      <Filter>Source Files\Utilities\Jobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CGarbage.cpp">
+      <Filter>Source Files\Utilities\Garbage</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CMeshContainer.cpp">
+      <Filter>Source Files\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CRenderer.cpp">
+      <Filter>Source Files\Graphics\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CDebugOBB.cpp">
+      <Filter>Source Files\Graphics\Rendering\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPrimQuad.cpp">
+      <Filter>Source Files\Graphics\Rendering\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CSceneFileIO.cpp">
+      <Filter>Source Files\Application\Scenes\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\CFileSystem.cpp">
+      <Filter>Source Files\Utilities\File</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CUICanvas.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CUITransform.cpp">
+      <Filter>Source Files\UI\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CUIText.cpp">
+      <Filter>Source Files\UI\Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Materials\Triangle.mat">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="..\Resources\Engine.res">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Triangle.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\compute.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\shader.hlsl">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Compute.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Materials\Compute.mat">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Debug.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Materials\Debug.mat">
+      <Filter>Resource Files\Materials</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Includes\Math.hlsli">
+      <Filter>Resource Files\Shaders\Includes</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Includes\Color.hlsli">
+      <Filter>Resource Files\Shaders\Includes</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Post.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\PostSky.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\PostToneMapping.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Includes\ProcSky.hlsli">
+      <Filter>Resource Files\Shaders\Includes</Filter>
+    </None>
+    <None Include="..\Resources\Materials\Post.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\PostSky.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\PostToneMapping.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+  </ItemGroup>
+</Project>

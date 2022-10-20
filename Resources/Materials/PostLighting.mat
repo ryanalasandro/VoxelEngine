@@ -1,0 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//
+// Copyright (c) Ryan Alasandro
+//
+// Application: NetRunner App
+//
+// File: ../Resources/Materials/PostLighting.mat
+//
+//-------------------------------------------------------------------------------------------------
+
+shader SHADER_POST_LIGHTING

@@ -1,0 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//
+// Copyright (c) Ryan Alasandro
+//
+// Application: Voxel Editor
+//
+// File: ../Resources/Materials/VoxelEditor/PostEdge.mat
+//
+//-------------------------------------------------------------------------------------------------
+
+shader SHADER_POST_EDGE

@@ -1,0 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//
+// Copyright (c) Ryan Alasandro
+//
+// Application: Voxel Editor
+//
+// File: ../Resources/Materials/VoxelEditor/PostVBlur.mat
+//
+//-------------------------------------------------------------------------------------------------
+
+shader SHADER_POST_BLUR.VBLUR.CHANNEL_1.SIGMA_5

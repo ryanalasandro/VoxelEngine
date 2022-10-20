@@ -1,0 +1,11 @@
+//-------------------------------------------------------------------------------------------------
+//
+// Copyright (c) Ryan Alasandro
+//
+// Application: Voxel Editor
+//
+// File: ../Resources/Materials/VoxelEditor/PostFXAA.mat
+//
+//-------------------------------------------------------------------------------------------------
+
+shader SHADER_POST_FXAA

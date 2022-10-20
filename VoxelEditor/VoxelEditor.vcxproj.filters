@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Application">
+      <UniqueIdentifier>{01e40c44-6bfc-4ea8-a575-3bc8d99d68b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{f26ca58d-f10e-4c37-929f-9c7d527fed80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{4fbbd6f7-8a59-4788-9621-969f1660f8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{ccb54e45-ae5b-4169-9f93-68041246e2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Scenes">
+      <UniqueIdentifier>{5ba587e6-2912-4980-830e-9154fb0a753c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Scenes">
+      <UniqueIdentifier>{983e72eb-d1e3-427d-a4e1-75400eb9cb68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actors">
+      <UniqueIdentifier>{ff2dc1ed-d1a4-4da6-9f00-af2d67227b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Actors\Player">
+      <UniqueIdentifier>{3555e9cd-1640-4d90-b18e-f404f300982c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actors">
+      <UniqueIdentifier>{5e970dc4-be4a-49c4-9294-9b9bc269a321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Actors\Player">
+      <UniqueIdentifier>{81b57a88-5e21-4d4e-8a4d-36c1da0c2e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application\Data">
+      <UniqueIdentifier>{6d82aa35-6e35-4952-ae8f-9634b313e671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Post">
+      <UniqueIdentifier>{dc9ae9d7-92e9-448f-a3b4-bae7fdc2fdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{f41080f1-32e7-4ef0-8288-1b288518c4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials">
+      <UniqueIdentifier>{91574763-d715-4f02-87b9-f1da59fb24fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials\Post">
+      <UniqueIdentifier>{64d1d84a-5ddb-45a6-956c-21571f824358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Post">
+      <UniqueIdentifier>{af4d600e-eac2-40c8-a2b9-4653551f3a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Post">
+      <UniqueIdentifier>{09c32521-df6a-48d2-9f74-f78456cfe562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{1e297d6b-a785-44b7-a425-a204ddfb5eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI\Utilities">
+      <UniqueIdentifier>{d7e61d87-6ea5-4db3-a4e6-34ef9c9a2704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI">
+      <UniqueIdentifier>{0efa6e64-081b-4d4a-8cb0-6b95f6b278cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\UI\WUI">
+      <UniqueIdentifier>{04221889-ad75-4cc5-aad3-88ea4f9e5c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Universe">
+      <UniqueIdentifier>{b188bef2-aecc-462c-9364-e394a7b12606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Universe\Cyberspace">
+      <UniqueIdentifier>{e45fffdd-eb6a-4c27-98a0-3b5a3810bd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Universe">
+      <UniqueIdentifier>{f7d32f06-e63e-4289-bc14-aa05e71e838c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Universe\Cyberspace">
+      <UniqueIdentifier>{98b64c28-9da4-4b66-b9b6-e836155829ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Universe\Nodes">
+      <UniqueIdentifier>{a12bda0b-1f0b-4214-a2f3-efb494c8001d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Universe\Nodes">
+      <UniqueIdentifier>{cd5e700c-b810-4924-a059-cd4907ce7fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{1ca9f8c1-05d8-4fb1-91b4-8ecd4c6f91cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Components">
+      <UniqueIdentifier>{863ddf8e-2f71-4438-82e7-59c068f5acfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{8b7b0493-9d9e-43d7-aa2c-cf1bcd5b9e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Components">
+      <UniqueIdentifier>{80104644-ae00-4460-9d8a-7572e1c10252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Components\Volumes">
+      <UniqueIdentifier>{c86590ba-7511-4344-8fd7-3d7405474143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Components\Volumes">
+      <UniqueIdentifier>{cad80f4d-59c7-4816-b0fa-af16ecf14004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics\Tests">
+      <UniqueIdentifier>{c386f35a-b0be-47dc-a682-e5eb9c78637d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Tests">
+      <UniqueIdentifier>{e4cc7747-49a4-429b-92fa-c09cba067999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials\Debug">
+      <UniqueIdentifier>{98768a67-a815-4f47-831b-29e182d91d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application\Data">
+      <UniqueIdentifier>{0f606aa6-eeac-4b76-9e1e-f83aaa7846d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Materials\World">
+      <UniqueIdentifier>{043958b9-5a56-48aa-8e62-83e61166b844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\World">
+      <UniqueIdentifier>{73593b7a-931b-48de-b8cf-712e1871a2f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CApplication.h">
+      <Filter>Header Files\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CSceneView.h">
+      <Filter>Header Files\Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors\CPlayerPawn.h">
+      <Filter>Header Files\Actors\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CAppData.h">
+      <Filter>Header Files\Application\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostLighting.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\CAIMath.h">
+      <Filter>Header Files\AI\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Universe\CCyberGrid.h">
+      <Filter>Header Files\Universe\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="Universe\CCyberNode.h">
+      <Filter>Header Files\Universe\Cyberspace</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CSceneGlobal.h">
+      <Filter>Header Files\Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CSceneNode.h">
+      <Filter>Header Files\Application\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Universe\CNodeGrid.h">
+      <Filter>Header Files\Universe\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Universe\CNodeChunk.h">
+      <Filter>Header Files\Universe\Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CVolumeChunk.h">
+      <Filter>Header Files\Physics\Components\Volumes</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostEdge.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostSSAO.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\CPostFXAA.h">
+      <Filter>Header Files\Graphics\Post</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\CTestCube.h">
+      <Filter>Header Files\Physics\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\CAppState.h">
+      <Filter>Header Files\Application\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors\CPlayerSelector.h">
+      <Filter>Header Files\Actors\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors\CPlayer.h">
+      <Filter>Header Files\Actors\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Actors\CPlayerHUD.h">
+      <Filter>Header Files\Actors\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CApplication.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CSceneView.cpp">
+      <Filter>Source Files\Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Actors\CPlayerPawn.cpp">
+      <Filter>Source Files\Actors\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostLighting.cpp">
+      <Filter>Source Files\Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="Universe\CCyberGrid.cpp">
+      <Filter>Source Files\Universe\Cyberspace</Filter>
+    </ClCompile>
+    <ClCompile Include="Universe\CCyberNode.cpp">
+      <Filter>Source Files\Universe\Cyberspace</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CSceneGlobal.cpp">
+      <Filter>Source Files\Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CSceneNode.cpp">
+      <Filter>Source Files\Application\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Universe\CNodeGrid.cpp">
+      <Filter>Source Files\Universe\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Universe\CNodeChunk.cpp">
+      <Filter>Source Files\Universe\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CVolumeChunk.cpp">
+      <Filter>Source Files\Physics\Components\Volumes</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostEdge.cpp">
+      <Filter>Source Files\Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostSSAO.cpp">
+      <Filter>Source Files\Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\CPostFXAA.cpp">
+      <Filter>Source Files\Graphics\Post</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\CTestCube.cpp">
+      <Filter>Source Files\Physics\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\CAppState.cpp">
+      <Filter>Source Files\Application\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Actors\CPlayerSelector.cpp">
+      <Filter>Source Files\Actors\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Actors\CPlayer.cpp">
+      <Filter>Source Files\Actors\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Actors\CPlayerHUD.cpp">
+      <Filter>Source Files\Actors\Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Editor.res">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostLighting.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\PostLighting.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\UI\WUI\VoxelEditor\Main.wui">
+      <Filter>Resource Files\UI\WUI</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostEdge.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\PostEdge.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostSSAO.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\PostSSAO.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostHBlur.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\PostBlur.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostVBlur.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\PostFXAA.shader">
+      <Filter>Resource Files\Shaders\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PostFXAA.mat">
+      <Filter>Resource Files\Materials\Post</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\DebugGreen.mat">
+      <Filter>Resource Files\Materials\Debug</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\CyberGrid.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\CyberNode.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\NodeGrid.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\Voxel.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\DeletionQuad.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Materials\VoxelEditor\PlacementQuad.mat">
+      <Filter>Resource Files\Materials\World</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\Voxel.shader">
+      <Filter>Resource Files\Shaders\World</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\CyberGrid.shader">
+      <Filter>Resource Files\Shaders\World</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\CyberNode.shader">
+      <Filter>Resource Files\Shaders\World</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\NodeGrid.shader">
+      <Filter>Resource Files\Shaders\World</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\VoxelEditor\TexturedQuad.shader">
+      <Filter>Resource Files\Shaders\World</Filter>
+    </None>
+  </ItemGroup>
+</Project>

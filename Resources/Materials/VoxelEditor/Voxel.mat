@@ -1,0 +1,13 @@
+//-------------------------------------------------------------------------------------------------
+//
+// Copyright (c) Ryan Alasandro
+//
+// Application: Voxel Editor
+//
+// File: ../Resources/Materials/VoxelEditor/Voxel.mat
+//
+//-------------------------------------------------------------------------------------------------
+
+shader SHADER_VOXEL
+
+DataBuffer.Color (1.0f, 1.0f, 1.0f, 1.0f)

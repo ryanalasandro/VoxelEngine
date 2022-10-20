@@ -1,0 +1,12 @@
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/Experimental.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/Nightly.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/Continuous.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/ogg.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/test_bitwise.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/test_framing.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/PACKAGE.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/INSTALL.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ryana/source/repos/NetRunner/Externals/libogg-1.3.5/build/CMakeFiles/ZERO_CHECK.dir
